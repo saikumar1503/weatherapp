@@ -1,0 +1,208 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: url("https://media.istockphoto.com/id/1328689113/photo/summer-blue-sky-and-white-cloud-white-background-beautiful-clear-cloudy-in-sunlight-calm.jpg?s=612x612&w=0&k=20&c=37qEuwdxyQSx9kuS-_Gz0WiKFX6jMXZN9aRY47mN2vI=")
+    no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+.searchInput {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: 140px;
+}
+
+.addToFavouritesBtn {
+  margin-left: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  align-items: center;
+  height: 40px;
+}
+
+.addToFavouritesBtn:hover {
+  background-color: #218838;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  align-items: center;
+  height: 40px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.weatherHeader {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.currentWeather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.weatherInfo {
+  text-align: left;
+}
+
+.weatherIcon {
+  height: 50px;
+}
+
+.weatherInfo p {
+  margin: 5px 0;
+}
+
+.forecastContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.forecastEntry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  width: 18%;
+}
+
+.forecastEntry p {
+  margin: 5px 0;
+}
+
+.forecastIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.weatherHeader h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.currentWeather p {
+  font-size: 18px;
+}
+
+.currentWeather img {
+  width: 50px;
+  height: 50px;
+}
+
+.forecastEntry p {
+  font-size: 14px;
+}
+.favourite-div {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.weathercity {
+  width: 50px;
+}
+.favourite-cities {
+  margin-top: 30px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.modal-header h2 {
+  margin: 0;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.modal-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.navigate-img {
+  width: 30;
+  height: 40;
+  margin-left: 20px;
+  align-items: center;
+  cursor: pointer;
+  mix-blend-mode: multiply;
+}
+
+.main {
+  display: flex;
+  margin-top: 20px;
+}
